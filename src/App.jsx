@@ -1,14 +1,11 @@
-import { useState } from 'react'
-import { Card } from './components/Card'
 import { Form } from './components/Form'
 
 function App() {
 
   return (
-    <>
+    <div className='flex justify-center'>
       <Form />
-      <Card />
-    </>
+    </div>
   )
 }
 
